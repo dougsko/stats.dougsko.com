@@ -22,7 +22,16 @@
             <div id="right">
                 <webgen:block name="content" />
             </div>
+
             <div id="left">
+                <div class="navouter">
+                    <div class="orange"></div>
+                    <div class="navheader">Main Menu</div>
+                    <div class="navcontent">
+                        {menu: {max_levels: 1, used_nodes: files}}
+                    </div>
+                </div>
+
                 <div class="navouter">
                     <div class="orange"></div>
                     <div class="navheader">System Specs</div>
@@ -41,13 +50,6 @@
                                 <b>disk: </b>140 GB
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="navouter">
-                    <div class="orange"></div>
-                    <div class="navheader">Main Menu</div>
-                    <div class="navcontent">
-                        {menu: {max_levels: 1, used_nodes: files}}
                     </div>
                 </div>
             </div>
