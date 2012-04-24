@@ -1,40 +1,59 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
-<head>
-    <title>{title:}</title>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-<meta name="description" content="Your website description goes here" />
-<meta name="keywords" content="your,keywords,goes,here" />
-<link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
-</head>
-
-<body>
-    <div id="header">
-        <h1><a href="/">vps stats and info</a></h1>
-        <p><%= `uptime` %></p>
-    </div>
-
-<div id="outer">
-<div class="orange"></div>
-<div id="location">{breadcrumb_trail:}</div>
-<div id="right">
-
-<webgen:block name="content" />
-
-</div>
-
-<div id="left">
-
-<div class="navouter">
-<div class="orange"></div>
-<div class="navheader">Main Menu</div>
-<div class="navcontent">
-    {menu: {max_levels: 1, used_nodes: files}}
-</div>
-</div>
-
-</div>
-
-</body>
+    <head>
+        <title>{title:}</title>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <meta name="description" content="Your website description goes here" />
+        <meta name="keywords" content="your,keywords,goes,here" />
+        <link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>
+                <a href="/">stats.dougsko.com</a>
+            </h1>
+            <p><%= `uptime` %></p>
+        </div>
+        <div id="outer">
+            <div class="orange"></div>
+            <div id="location">{breadcrumb_trail:}</div>
+            <div id="right">
+                <webgen:block name="content" />
+            </div>
+            <div id="left">
+                <div class="navouter">
+                    <div class="orange"></div>
+                    <div class="navheader">System Specs</div>
+                    <div class="navcontent">
+                        <ul>
+                            <li>
+                                <b>cpu: </b>AMD Athlon 64 X2 Dual Core Processor 5600+
+                            </li>
+                            <li>
+                                <b>clock: </b>2913.203 MHz
+                            </li>
+                            <li>
+                                <b>memory: </b>1024 MB
+                            </li>
+                            <li>
+                                <b>disk: </b>140 GB
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navouter">
+                    <div class="orange"></div>
+                    <div class="navheader">Main Menu</div>
+                    <div class="navcontent">
+                        {menu: {max_levels: 1, used_nodes: files}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>&copy doug prostko 2012</p>
+        </div>
+    </body>
 </html>

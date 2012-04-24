@@ -70,6 +70,11 @@ margin-left: 30px;
 font-size: 15px;
 }
 
+#footer
+{
+    float: right;
+}
+
 /* Main box  surrounding everything*/
 
 #outer
