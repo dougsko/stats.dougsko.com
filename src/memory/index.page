@@ -5,8 +5,8 @@ routed_title: Memory Usage
 ---
 ## Memory Usage
 
-<img src="images/memory-1h.png" />
-<img src="images/memory-1d.png" />
-<img src="images/memory-1w.png" />
-<img src="images/memory-1m.png" />
-<img src="images/memory-1y.png" />
+<img src="images/memory-1h.png" alt="memory-1h.png" />
+<img src="images/memory-1d.png" alt="memory-1d.png" />
+<img src="images/memory-1w.png" alt="memory-1w.png" />
+<img src="images/memory-1m.png" alt="memory-1m.png" />
+<img src="images/memory-1y.png" alt="memory-1y.png" />

@@ -53,7 +53,9 @@
             </div>
         </div>
         <div id="footer">
-            <p>&copy doug prostko 2012</p>
+            <p>&copy; doug prostko 2012 | 
+                <a href="http://validator.w3.org/check?uri=referer">Valid
+                XHTML 1.1</a></p>
         </div>
     </body>
 </html>

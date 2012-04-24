@@ -5,8 +5,8 @@ routed_title: Disk Usage
 ---
 ## Disk Usage
 
-<img src="images/disk-1h.png" />
-<img src="images/disk-1d.png" />
-<img src="images/disk-1w.png" />
-<img src="images/disk-1m.png" />
-<img src="images/disk-1y.png" />
+<img src="images/disk-1h.png" alt="disk-1h.png" />
+<img src="images/disk-1d.png" alt="disk-1d.png" />
+<img src="images/disk-1w.png" alt="disk-1w.png" />
+<img src="images/disk-1m.png" alt="disk-1m.png" />
+<img src="images/disk-1y.png" alt="disk-1y.png" />

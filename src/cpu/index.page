@@ -5,8 +5,8 @@ routed_title: CPU Load
 ---
 ## CPU Load
 
-<img src="images/cpu-1h.png" />
-<img src="images/cpu-1d.png" />
-<img src="images/cpu-1w.png" />
-<img src="images/cpu-1m.png" />
-<img src="images/cpu-1y.png" />
+<img src="images/cpu-1h.png" alt="cpu-1h.png" />
+<img src="images/cpu-1d.png" alt="cpu-1d.png" />
+<img src="images/cpu-1w.png" alt="cpu-1w.png" />
+<img src="images/cpu-1m.png" alt="cpu-1m.png" />
+<img src="images/cpu-1y.png" alt="cpu-1y.png" />
