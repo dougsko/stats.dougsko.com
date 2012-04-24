@@ -1,0 +1,12 @@
+---
+title: Disk Usage
+in_menu: true
+routed_title: Disk Usage
+---
+## Disk Usage
+
+<img src="images/disk-1h.png" />
+<img src="images/disk-1d.png" />
+<img src="images/disk-1w.png" />
+<img src="images/disk-1m.png" />
+<img src="images/disk-1y.png" />

@@ -1,0 +1,9 @@
+---
+title: Home
+in_menu: false
+routed_title: Home
+---
+## Get your stats here.
+
+This page serves as a monitoring portal for the VPS stats.
+

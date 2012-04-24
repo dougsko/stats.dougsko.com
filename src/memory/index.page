@@ -1,0 +1,12 @@
+---
+title: Memory Usage
+in_menu: true
+routed_title: Memory Usage
+---
+## Memory Usage
+
+<img src="images/memory-1h.png" />
+<img src="images/memory-1d.png" />
+<img src="images/memory-1w.png" />
+<img src="images/memory-1m.png" />
+<img src="images/memory-1y.png" />
