@@ -1,10 +1,41 @@
-description:
-  This skeleton of a webgen website provides a set of default files for every
-  created webgen website.
+    stats.dougsko.com server monitoring site
+    Copyright (C) 2012 Doug Prostko
 
-  When using the standard settings, the sources are in the directory `src` and
-  the generated output goes into `out`. Extensions can be placed under `ext`.
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-  For configuration purposes, use the config.yaml file.
----
-note: This file can be deleted!
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+This site is built using webgen and is powered by a few shell scripts
+and rrdtool.  Due to its simplicity, it should be trivial to drop this
+site onto any other linux server and have it just work.  It is also easy
+to expand this site's monitoring capabilities.
+
+All of the source files for this site are under the 'src' directory.  In
+order to add a new statistic for this site to monitor, you can do the
+following:
+
+  1. Copy one of the existing stats folders, like, 'net', and give it a
+  new name.
+  2. Change the name of the graphing shell script to reflect the name of
+  the stat.
+  3. Edit the shell script so that it does what you want.  There are
+  three main sections to this file, database creation, database
+  updating, and graph creation.
+  4. Edit the index.page file so that it has the proper names of the
+  images rrdtool creates.
+
+Make sure to set up a cron job to run the updater.sh script.  This
+script runs all the other scripts in each of the monitoring sections.
+The cronjob should run every five minutes, so something like this should
+work:
+
+  */5 * * * * /path/to/updater.sh > /dev/null 2>&1
