@@ -14,7 +14,6 @@
             <h1>
                 <a href="/">stats.dougsko.com</a>
             </h1>
-            <p><%= `uptime` %></p>
         </div>
         <div id="outer">
             <div class="orange"></div>
