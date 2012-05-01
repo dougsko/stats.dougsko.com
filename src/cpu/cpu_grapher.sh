@@ -30,6 +30,7 @@ for INT in 1h 1d 1w 1m 1y
 do
     /usr/bin/rrdtool graph images/${CTID}-${INT}.png \
         --start now-$INT --end now \
+        --upper-limit 2.5 --lower-limit 0 \
         -w 650 -h 250 \
         --title "5 Min Load Ave - Interval $INT" \
         --color CANVAS#555555 \
