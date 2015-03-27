@@ -50,7 +50,7 @@ do
         AREA:KB_out#0081EB:"eth0 out" \
         AREA:KB_in1#aea:"eth0 in" \
         GPRINT:KB_out_max:"max out\: %.2lf KB/s" \
-        GPRINT:KB_in_max:"max in\: %.2lf KB/s" \
         GPRINT:KB_out_ave:"ave out\: %.2lf KB/s" \
+        GPRINT:KB_in_max:"max in\: %.2lf KB/s" \
         GPRINT:KB_in_ave:"ave in\: %.2lf KB/s"
 done

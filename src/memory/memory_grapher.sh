@@ -32,6 +32,7 @@ for INT in 1h 1d 1w 1m 1y
 do
     /usr/bin/rrdtool graph images/${CTID}-${INT}.png \
         --start now-$INT --end now \
+        --base 1024 \
         -w 650 -h 250 \
         --title "Memory Usage - Interval $INT" \
         --color CANVAS#555555 \

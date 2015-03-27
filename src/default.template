@@ -37,16 +37,16 @@
                     <div class="navcontent">
                         <ul>
                             <li>
-                                <b>cpu: </b>AMD Athlon 64 X2 Dual Core Processor 5600+
+                                <b>cpu: </b>Intel Xenon dual quad core
                             </li>
                             <li>
-                                <b>clock: </b>2913.203 MHz
+                                <b>clock: </b>3.2 GHz
                             </li>
                             <li>
-                                <b>memory: </b>1024 MB
+                                <b>memory: </b>1200 MB
                             </li>
                             <li>
-                                <b>disk: </b>140 GB
+                                <b>disk: </b>300 GB
                             </li>
                         </ul>
                     </div>
